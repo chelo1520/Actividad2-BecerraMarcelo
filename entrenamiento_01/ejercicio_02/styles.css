@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+main{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    border-bottom: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: white;
+}
+
+.receta{
+    width: 80%;
+    border: 2px solid gray;
+    border-radius: 15% 0 15% 0;
+}
+.receta h2{
+    text-align: center;
+}
+
+.receta img{
+   width: 80%;
+   height: 70px;
+   background-size: contain;
+   object-fit: cover;
+}
+.img-receta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pasos-content{
+   padding-left: 2rem;
+}
+
+.content-recetas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+#content-form{
+    border: 1px solid gray;
+    padding: 1rem;
+    width: 80%;
+    margin: 2rem;
+    background-color: rgb(210, 206, 206);
+    display: flex;
+    align-items: center;
+}
+#content-form form{
+    width: 70%;
+
+}
+
+.campo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+label{
+    width: 20%;
+}
+
+
+.campo textarea {
+  width: 80%;
+  height: 10vh;
+  padding: 0.5em;
+  border: 1px solid black;
+  resize: none;
+}
+
+
+
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 2em;
+}
+
+
+.botones button {
+  width: 30%;
+  padding: 0.3em 0;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.botones button[type="submit"] {
+  background-color: #cfe2f3;
+}
+
+.botones button[type="reset"] {
+  background-color: #f4cccc;
+}
+
+
+#indice{
+  height: 500px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 70px;
+}
+
+.receta-links{
+  background-color: rgb(179, 199, 246);
+  border: 1px solid gray;
+  margin: 1rem;
+  padding: 1rem;
+}
+.receta-indice-titulo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#content-recetas-links{
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+}
+
+#receta-1,
+#receta-2,
+#receta-3,
+#receta-4,
+#indice {
+  scroll-margin-top: 60px;
+}
