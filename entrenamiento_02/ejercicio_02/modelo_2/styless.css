@@ -22,8 +22,7 @@ main div {
   width: 100%;
   justify-content: center;
   align-items: center;
-    font-size: 2rem;
-
+  font-size: 2rem;
 }
 
 #section-1 {
@@ -66,5 +65,12 @@ main div {
       "tres cuatro"
       "dos dos"
       "uno uno";
+  }
+  #section-5 {
+    background-color: rgb(147, 167, 247);
+  }
+
+  #section-6 {
+    background-color: rgb(228, 135, 135);
   }
 }

@@ -62,4 +62,14 @@ main div {
       "tres cuatro"
       "cinco seis";
   }
+  #section-1 {
+    margin-bottom: 1.5rem;
+  }
+  #section-5 {
+    background-color: rgb(189, 189, 251);
+  }
+
+  #section-6 {
+    background-color: rgb(189, 189, 251);
+  }
 }

@@ -33,17 +33,17 @@ main div {
 
 #section-2 {
   grid-area: dos;
-  background-color: rgb(233, 233, 146);
+  background-color: rgb(157, 234, 157);
 }
 
 #section-3 {
   grid-area: tres;
-  background-color: rgb(228, 135, 135);
+  background-color: rgb(251, 246, 161);
 }
 
 #section-4 {
   grid-area: cuatro;
-  background-color: rgb(228, 135, 135);
+  background-color: rgb(251, 246, 161);
 }
 
 #section-5 {
@@ -53,7 +53,7 @@ main div {
 
 #section-6 {
   grid-area: seis;
-  background-color: rgb(228, 135, 135);
+  background-color: rgb(189, 189, 251);
 }
 
 @media (max-width: 768px) {
